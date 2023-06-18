@@ -1,8 +1,10 @@
 import { defineDocumentType, makeSource } from "contentlayer/source-files";
+
 import readingTime from "reading-time";
 import rehypeAutolinkHeadings from "rehype-autolink-headings";
 import rehypePrettyCode, { VisitableElement } from "rehype-pretty-code";
 import rehypeSlug from "rehype-slug";
+import { remarkPrependTocDirective, remarkTocDirective } from "./lib/markdown";
 
 export const Post = defineDocumentType(() => ({
   name: "Post",
@@ -52,6 +54,10 @@ export default makeSource({
   contentDirPath: "posts",
   documentTypes: [Post],
   mdx: {
+    remarkPlugins: [
+      remarkPrependTocDirective,
+      remarkTocDirective
+    ],
     rehypePlugins: [
       rehypeSlug,
       [
