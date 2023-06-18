@@ -1,14 +1,15 @@
 import { Metadata } from "next";
 
+import { Balancer } from "react-wrap-balancer";
+
 import Navbar from "@/components/navbar";
 import Footer from "@/components/footer";
-import { Balancer } from "react-wrap-balancer";
 
 export const metadata: Metadata = {
   title: "Zaki Nadhif's About"
 }
 
-export default function Home() {
+export default function About() {
   return (
     <>
       <Navbar />

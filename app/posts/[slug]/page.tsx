@@ -1,62 +1,37 @@
 import Link from "next/link";
 import { format, parseISO } from "date-fns";
+import { Balancer } from "react-wrap-balancer";
+import { allPosts, Post } from "contentlayer/generated";
 
 import "@/styles/blog.scss";
-
-import { allPosts, Post } from "contentlayer/generated";
 import { Mdx } from "@/components/mdx";
 import Footer from "@/components/footer";
-import { Balancer } from "react-wrap-balancer";
+
+export const generateStaticParams = async () =>
+  allPosts.map((post) => ({ slug: post.slug }));
+
+export const generateMetadata = ({ params }: { params: { slug: string } }) => {
+  const post = allPosts.find((post) => post.slug === params.slug);
+  if (!post) throw new Error(`Post not found for slug: ${params.slug}`);
+
+  const { title, date: publishedTime, summary: description, slug } = post;
+
+  return {
+    title,
+    description,
+    openGraph: {
+      title,
+      description,
+      type: "article",
+      publishedTime,
+      url: `https://zakinadhif.my.id/posts/${slug}`,
+    },
+  };
+};
 
 export default function Post({ params }: { params: { slug: string } }) {
   const post = allPosts.find((post) => post.slug === params.slug);
   if (!post) throw new Error(`Post not found for slug: ${params.slug}`);
-
-  const getTags = () => {
-    return post.tags?.map((tag, i, arr) => (
-      <span key={i}>
-        {" "}
-        <Link
-          href={`/tags/${tag}`}
-          className='underline underline-offset-1'
-        >{`#${tag}`}</Link>
-        {i != arr.length - 1 ? "," : ""}
-      </span>
-    ));
-  };
-
-  const renderPostGroup = () => {
-    return (
-      <>
-        {post.group ? (
-          <Link
-            href={`/groups/${post.group}`}
-            className='font-bold uppercase hover:underline'
-          >
-            {post.group}
-          </Link>
-        ) : (
-          <span className='font-bold uppercase'>zaki_nadhif.txt</span>
-        )}
-      </>
-    );
-  };
-
-  const renderPostMetadata = () => {
-    return (
-      <>
-        {renderPostGroup()}
-        {` ${format(parseISO(post.date), 'yyyy-MM-dd')} | ${post.readingTime}`}
-        {post.tags ? (
-          <>
-            {" | "}
-            <i className='ri-price-tag-3-fill'></i>
-            {getTags()}
-          </>
-        ) : null}
-      </>
-    );
-  };
 
   return (
     <>
@@ -73,7 +48,7 @@ export default function Post({ params }: { params: { slug: string } }) {
               <Balancer>{post.title}</Balancer>
             </h1>
             <span className='text-whitesmoke text-sm font-medium'>
-              {renderPostMetadata()}
+              <PostMetadata post={post} />
             </span>
           </header>
           <Mdx code={post.body.code} />
@@ -84,29 +59,56 @@ export default function Post({ params }: { params: { slug: string } }) {
   );
 }
 
-export const generateStaticParams = async () =>
-  allPosts.map((post) => ({ slug: post.slug }));
-
-export const generateMetadata = ({ params }: { params: { slug: string } }) => {
-  const post = allPosts.find((post) => post.slug === params.slug);
-  if (!post) throw new Error(`Post not found for slug: ${params.slug}`);
-
-  const {
-    title,
-    date: publishedTime,
-    summary: description,
-    slug
-  } = post;
-
-  return {
-    title,
-    description,
-    openGraph: {
-      title,
-      description,
-      type: 'article',
-      publishedTime,
-      url: `https://zakinadhif.my.id/posts/${slug}`
-    }
-  };
+const PostTags = ({ tags }: { tags: string[] }) => {
+  return (
+    <>
+      {tags.map((tag, idx, arr) => (
+        <span key={idx}>
+          {" "}
+          <Link href={`/tags/${tag}`} className='underline underline-offset-1'>
+            {`#${tag}`}
+          </Link>
+          {idx != arr.length - 1 ? "," : ""}
+        </span>
+      ))}
+    </>
+  );
 };
+
+const PostGroup = ({ group }: { group?: string }) => {
+  return (
+    <>
+      {group ? (
+        <Link
+          href={`/groups/${group}`}
+          className='font-bold uppercase hover:underline'
+        >
+          {group}
+        </Link>
+      ) : (
+        <span className='font-bold uppercase'>zaki_nadhif.txt</span>
+      )}
+    </>
+  );
+};
+
+const PostMetadata = (props: { post: Post }) => {
+  const { post } = props;
+
+  const date = format(parseISO(post.date), "yyyy-MM-dd");
+  const readingTime = post.readingTime;
+
+  return (
+    <>
+      <PostGroup group={post.group} />
+      {` ${date} | ${readingTime}`}
+      {post.tags && (
+        <>
+          {" | "}
+          <i className='ri-price-tag-3-fill'></i>
+          <PostTags tags={post.tags} />
+        </>
+      )}
+    </>
+  );
+}
