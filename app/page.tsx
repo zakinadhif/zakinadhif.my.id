@@ -1,20 +1,19 @@
 import { Metadata } from "next";
 import { compareDesc, format, parseISO } from "date-fns";
-import { allPosts } from "contentlayer/generated";
 import Link from "next/link";
 
 import Navbar from "@/components/navbar";
 import Footer from "@/components/footer";
+
+import { getPostsSorted } from "@/lib/posts";
 
 export const metadata: Metadata = {
   title: "Zaki Nadhif's Notes",
 };
 
 export default function Home() {
-  const allPostsSorted = allPosts.sort((a, b) =>
-    compareDesc(new Date(a.date), new Date(b.date))
-  );
-
+  const allPostsSorted = getPostsSorted();
+  
   return (
     <>
       <Navbar />
@@ -34,7 +33,7 @@ export default function Home() {
             {allPostsSorted.map(({ _id, date, title, url }) => (
               <li className='flex md:flex-row flex-col' key={_id}>
                 <time className='text-smoke mr-8 shrink-0' dateTime={date}>
-                  {format(parseISO(date), "LLLL d, yyyy")}
+                  {format(parseISO(date), "LLL dd, yyyy")}
                 </time>
                 <span className='underline underline-offset-1'>
                   <Link href={url}>{title}</Link>

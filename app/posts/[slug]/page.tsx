@@ -2,6 +2,7 @@ import Link from "next/link";
 import { format, parseISO } from "date-fns";
 import { Balancer } from "react-wrap-balancer";
 import { allPosts, Post } from "contentlayer/generated";
+import { notFound } from "next/navigation";
 
 import "@/styles/blog.scss";
 import { Mdx } from "@/components/mdx";
@@ -12,7 +13,7 @@ export const generateStaticParams = async () =>
 
 export const generateMetadata = ({ params }: { params: { slug: string } }) => {
   const post = allPosts.find((post) => post.slug === params.slug);
-  if (!post) throw new Error(`Post not found for slug: ${params.slug}`);
+  if (!post) notFound();
 
   const { title, date: publishedTime, summary: description, slug } = post;
 
@@ -31,7 +32,7 @@ export const generateMetadata = ({ params }: { params: { slug: string } }) => {
 
 export default function Post({ params }: { params: { slug: string } }) {
   const post = allPosts.find((post) => post.slug === params.slug);
-  if (!post) throw new Error(`Post not found for slug: ${params.slug}`);
+  if (!post) notFound();
 
   return (
     <>
