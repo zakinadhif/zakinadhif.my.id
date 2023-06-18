@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html, #__next, body {
+  @apply h-full
+}
+
+body {
+  @apply font-jetbrains-mono bg-[#161A26] text-whitesmoke overflow-auto
+    max-w-3xl w-full mx-auto px-6 text-sm leading-relaxed;
+
+  text-rendering: geometricPrecision;
+}
+
+.h2 {
+  @apply text-xl text-bluemoon mb-4 mt-8 font-bold 
+}

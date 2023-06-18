@@ -1,0 +1,112 @@
+#article-container {
+  @apply mt-8;
+
+  #toc-container {
+    @apply p-4 bg-[#0e1018] border border-[#424964] rounded-md mb-4;
+
+    h2 {
+      @apply mb-1 mt-0 pt-0 text-lg;
+    }
+
+    ol { 
+      @apply list-decimal mb-0 pl-8 text-sm;
+
+      li {
+        @apply mb-1 md:mb-0
+      }
+
+      li:last-child {
+        @apply mb-0
+      }
+    }
+  }
+
+  div[data-rehype-pretty-code-fragment] {
+    @apply mb-4 md:text-sm text-xs;
+
+    div[data-rehype-pretty-code-title] {
+      @apply px-4 py-2 border-[#424964] border-t border-x rounded-t-md bg-[#141722]
+    }
+    
+    div[data-rehype-pretty-code-title] + pre {
+      @apply mt-0 rounded-t-none border-t-0
+    }
+  }
+
+  pre {
+    @apply my-4 p-4 bg-[#0e1018] border border-[#424964] rounded-md;
+    
+    code {
+      @apply text-whitesmoke bg-transparent bg-opacity-100 rounded-none p-0
+        md:text-sm text-xs overflow-auto block;
+    }
+
+    code[data-line-numbers] {
+      counter-reset: line;
+    }
+  
+    code[data-line-numbers] > .line::before {
+      counter-increment: line;
+      content: counter(line);
+     
+      /* Other styling */
+      display: inline-block;
+      width: 1rem;
+      margin-right: 1em;
+      text-align: right;
+      color: #333a57;
+    }
+  
+    code[data-line-numbers][data-line-numbers-max-digits="2"] > .line::before {
+      width: 1rem;
+    }
+  
+    code[data-line-numbers][data-line-numbers-max-digits="3"] > .line::before {
+      width: 2rem;
+    }
+  }
+
+  code {
+    @apply font-jetbrains-mono bg-[#f2f1f1] bg-opacity-10 rounded-sm py-[0.125rem] px-[0.25rem];
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    @apply mb-4 mt-8 text-bluemoon;
+  }
+
+  h1 {
+    @apply text-3xl font-extrabold;
+  }
+
+  h2, h3, h4, h5, h6 {
+    @apply font-bold;
+  }
+
+  h2 {
+    @apply text-xl leading-normal;
+  }
+
+  h3 {
+    @apply text-base;
+  }
+
+  h4 {
+    @apply text-sm;
+  }
+
+  ol, ul, pre, p {
+    @apply mb-4;
+  }
+
+  ol, ul {
+    @apply pl-6;
+  }
+
+  ul {
+    @apply list-disc;
+  }
+
+  li {
+    @apply mb-1
+  }
+}
