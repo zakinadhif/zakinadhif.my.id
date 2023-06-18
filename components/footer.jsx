@@ -10,7 +10,7 @@ export default function Footer() {
                 <ul className="flex divide-x divide-smoke divide-dotted underline underline-offset-1">
                     <li className="px-3 pl-0"><Link href="/">home</Link></li>
                     <li className="px-3"><Link href="/about">about</Link></li>
-                    <li className="px-3"><Link href="/archives">writing</Link></li>
+                    <li className="px-3"><Link href="/posts">posts</Link></li>
                     <li className="px-3 pr-0"><a href="https://github.com/zakinadhif">projects</a></li>
                 </ul>
             </nav>

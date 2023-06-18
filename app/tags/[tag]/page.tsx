@@ -4,6 +4,7 @@ import Footer from "@/components/footer";
 import Navbar from "@/components/navbar";
 import { getPostTags, getPostsWithTag, groupPostsByYear } from "@/lib/posts";
 import { format, parseISO } from "date-fns";
+import { notFound } from "next/navigation";
 
 export const generateStaticParams = async () =>
   getPostTags().map((tag) => ({ tag: tag }));
@@ -14,6 +15,9 @@ export const generateMetadata = ({ params }: { params: { tag: string } }) => {
 
 export default function Post({ params }: { params: { tag: string } }) {
   const posts = getPostsWithTag(params.tag);
+
+  if (posts.length == 0) notFound();
+
   const postsGroupedByYear = groupPostsByYear(posts);
 
   return (
