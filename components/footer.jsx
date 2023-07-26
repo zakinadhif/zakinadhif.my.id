@@ -11,6 +11,7 @@ export default function Footer() {
                     <li className="px-3 pl-0"><Link href="/">home</Link></li>
                     <li className="px-3"><Link href="/about">about</Link></li>
                     <li className="px-3"><Link href="/posts">posts</Link></li>
+                    <li className="px-3"><Link href="/credits">credits</Link></li>
                     <li className="px-3 pr-0"><a href="https://github.com/zakinadhif">projects</a></li>
                 </ul>
             </nav>

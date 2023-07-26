@@ -11,6 +11,7 @@ export default function Navbar() {
                     <li className="px-4 pl-0"><Link href="/" className="hover:underline underline-offset-1">home</Link></li>
                     <li className="px-4"><Link href="/about" className="hover:underline underline-offset-1">about</Link></li>
                     <li className="px-4"><Link href="/posts" className="hover:underline underline-offset-1">posts</Link></li>
+                    <li className="px-4"><Link href="/credits" className="hover:underline underline-offset-1">credits</Link></li>
                     <li className="px-4 pr-0"><a href="https://github.com/zakinadhif" className="hover:underline underline-offset-1">projects</a></li>
                 </ul>
             </nav>
