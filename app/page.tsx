@@ -21,7 +21,7 @@ export default function Home() {
         <section id='about'>
           <p className='my-3'>
             I'm Zaki Nadhif, a junior software developer from Indonesia.
-            Currently a twelfth grader at SMK Telkom Malang.
+            A fresh graduate from SMK Telkom Malang.
           </p>
         </section>
         <section id='writing'>
