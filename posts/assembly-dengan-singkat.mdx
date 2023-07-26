@@ -1,0 +1,117 @@
+---
+title: 'Binary Exploit: Bahasa Assembly'
+date: '2023-05-24'
+lastEdited: '2023-05-24'
+group: 'ctf.txt'
+tags: ['BinExp']
+---
+
+## Assembly: Satu Langkah di Atas Baremetal Programming
+
+Ketika kamu mengerjakan sebuah exploit binary, maka skill pertama yang harus kamu
+miliki adalah mengetahui cara membaca kode assembly, dan juga bagaimana kode
+bahasa C dipetakan kepada assembly hasil kompilasinya.
+
+Assembly adalah sebuah bahasa pemrograman yang memiliki 1-to-1 mapping dengan hasil
+bahasa mesinnya.
+
+### CPU Registers
+
+Hampir seluruh operasi CPU melibatkan pemrosesan data. Data ini bisa disimpan pada
+memori dan juga diakses dari sana. Namun, membaca data dari dan menyimpan data ke
+memori memperlambat kerja CPU, karena prosesnya yang kompleks yang melibatkan pengiriman
+permintaan data lintas control bus dan masuk ke memory storage unit dan juga mengambil
+data dari kanal yang sama.
+
+Untuk mempercepat operasi ini, CPU memiliki beberapa internal memory storage locations,
+yang dinamakan dengan registers.
+
+Register menyimpan data untuk pemrosesan tanpa harus mengakses memori RAM. CPU memiliki
+jumlah registers yang terbatas, yang dibangun di chip processor.
+
+<Image src="/assets/x86-registers.png" width="480" height="360" />
+
+Processor x86 modern (i.e. 386 dan selanjutnya) memiliki delapan 32-bit general purpose
+register, seperti digambarkan di atas. Dua dari register tersebut, secara konvensi,
+mempunyai fungsi yang spesial, yaitu melacak lokasi base dari stack (EBP) dan melacak
+lokasi paling atas (top) dari stack (ESP).
+
+Untuk EAX, EBX, ECX dan EDX registers, subsectionnya juga bisa dipakai. Contohnya,
+2 bytes yang paling tidak signifikan dari EAX bisa digunakan sebagai 16-bit register
+dengan nama AX. Begitu juga untuk byte paling tidak signifikan dari AX bisa digunakan
+sebagai 8-bit register dengan nama AL, dan untuk byte paling signifikan dari AX bisa
+digunakan sebagai sebuah 8-bit register dengan nama AH. Nama-nama tersebut
+mereferensikan register yang sama. Jadi apabila kamu mengubah nilai register AX, maka
+nilai register EAX juga akan berubah, begitu juga bila kamu mengubah register AH ataupun AL.
+
+### Assembly Syntax and Flavor
+
+Sekilas mengenai assembly syntax dan flavor, keduanya sedikit berbeda, di dunia assembly
+terdapat banyak assembler (i.e. NASM, MASM, GAS, FASM), masing-masing memiliki syntax
+yang berbeda, seperti cara menulis comment, mendeklarasi variabel, macro, dan juga sections.
+
+Sedangkan, flavor lebih mengarah kepada cara membaca statemen assemblynya, seperti:
+
+**Intel Flavor**
+
+```asm
+mov eax, 9
+```
+
+**AT&T Flavor**
+
+```asm
+mov 9, %eax
+```
+
+Perbedaannya ada pada peletakan source dan destination dari instruksi.
+
+**Intel flavor** berbentuk seperti:
+
+```asm
+mov destination, source
+```
+
+dan **AT&T flavor** berbentuk seperti:
+
+```asm
+mov source, destination
+```
+
+### Common Assembly Instructions
+
+```asm title="Memindah nilai ke variabel"
+mov eax, 9
+mov ebp, esp
+```
+
+```asm title="Increment register"
+inc eax
+```
+
+```asm title="Jump to address"
+jmp 0xcafebabe
+jmp eax
+```
+
+```asm title="Conditional jump"
+mov eax, 2
+mov ebx, 3
+
+cmp eax, ebx
+
+je EQUAL
+jg GREATER_THAN
+jmp LESS_THAN
+```
+
+```asm title="Push and pop to stack"
+push 90
+pop eax
+
+push eax
+mov eax, 30
+pop eax
+```
+
+[Next article in this series](/posts/elf-sang-kontainer-eksekutabel)
