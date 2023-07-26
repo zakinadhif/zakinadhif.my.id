@@ -6,5 +6,5 @@ Powered with ContentLayer for hot reload and mdx integration, because tried writ
 
 ## Credits
 
-Thanks to [@anak-nolep](https://github.com/anak-nolep) for the QoL improvements.
+Thanks to [@anak-nolep](https://github.com/anak-nolep) for the QoL improvements.  
 Thanks to [@leerob](https://leerob.io) for the open source code.
