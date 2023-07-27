@@ -20,7 +20,7 @@ export default function Home() {
       <main>
         <section id='about'>
           <p className='my-3'>
-            I'm Zaki Nadhif, a junior software developer from Indonesia.
+            I&apos;m Zaki Nadhif, a junior software developer from Indonesia.
             A fresh graduate from SMK Telkom Malang.
           </p>
         </section>
