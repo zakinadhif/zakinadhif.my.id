@@ -27,11 +27,9 @@ Sebuah file ELF terdiri dari berbagai sections, diantaranya sebagai berikut:
 Setiap section tersebut mempunyai address yang menunjukkan dimana section
 tersebut berada di memori.
 
-:::info
-Namun, dalam executable yang dicompile dengan Position Independent Executable
+! Namun, dalam executable yang dicompile dengan Position Independent Executable
 (PIE/PIC), lokasi section .text dan .data bisa saja berbeda dari awalnya; ketika
 dimuat ke memori jika ASLR dari OS menyala.
-:::
 
 Berikut contoh asli dari section table sebuah ELF:
 
