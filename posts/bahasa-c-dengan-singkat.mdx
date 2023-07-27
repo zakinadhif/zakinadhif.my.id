@@ -1,0 +1,51 @@
+---
+title: 'Binary Exploit: Bahasa C'
+date: '2023-07-27'
+lastEdited: '2023-07-27'
+group: 'ctf.txt'
+tags: ['BinExp']
+---
+
+## Apa Itu Bahasa C?
+
+Bahasa C adalah sebuah bahasa pemrograman komputer yang dibuat sekitar tahun
+1970-an oleh Dennis Ritchie, dan masih merupakan bahasa yang banyak digunakan dan
+berpengaruh sampai sekarang. 
+
+Bahasa ini merupakan bahasa pemrograman tingkat rendah, dimana ia tidak memberikan
+begitu banyak abstraksi diatas arsitektur _instruction set_ komputer. Hal ini dapat
+dilihat dari konstruk bahasanya yang tidak begitu jauh ketika dipetakan ke hasil
+kompilasinya.
+
+Bahasa C terkenal dengan sifatnya yang ringan, cepat, dan juga serbaguna. Namun
+juga terkenal dengan sifat buruknya yang rawan dengan celah keamanan.
+
+Bahasa ini juga merupakan sebuah bahasa dikompilasi (compiled language).
+Artinya, sebelum kamu bisa mengeksekusi program C, kamu harus mengkompilasinya
+terlebih dahulu.
+
+Di dunia ini ada banyak compiler bahasa C yang bisa kamu gunakan. Beberapa
+diantaranya adalah Clang, GNU C Compiler (GCC), Microsoft Visual C/C++ Compiler
+(MSVC).
+
+Pada artikel ini, kamu akan mempelajari proses kompilasi, konstruk umum bahasa C,
+dan juga konsep stack dan heap.
+
+## Proses Kompilasi Pada Bahasa C
+
+Proses kompilasi melibatkan empat langkah, yaitu preprocessing, compiling,
+assembling, dan linking.
+
+1. Pertama, preprocessor akan mengekspansi macro dan
+direktif-direktif yang ada di sebuah kode C.
+
+2. Lalu, compiler akan mengkonversi kode C yang sudah diekspansi tadi menjadi
+sebuah kode assembly.
+
+3. Setelahnya, assembler akan mengkonversi kode assembly tadi menjadi sebuah
+kode mesin berbentuk object file.
+
+4. Kemudian, linker akan menyatukan berbagai object files dari berbagai
+compilation units menjadi sebuah executable.
+
+## Bahasa C Dengan Singkat
