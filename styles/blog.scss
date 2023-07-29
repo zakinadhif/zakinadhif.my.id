@@ -118,11 +118,11 @@
     @apply pl-6;
   }
 
-  ul {
-    @apply list-disc;
+  ul li {
+    @apply mb-1 list-disc;
   }
 
-  li {
+  ol li {
     @apply mb-1 list-decimal;
   }
 }
