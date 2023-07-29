@@ -1,0 +1,414 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="1301.9128"
+   height="424.59103"
+   viewBox="0 0 1301.9128 424.59103"
+   version="1.1"
+   id="svg5"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs2" />
+  <g
+     id="layer1"
+     transform="translate(-436.67343,-167.63626)">
+    <rect
+       style="fill:#ffffff;stroke-width:4;stroke-linecap:round;stroke-linejoin:round;stroke-dashoffset:64;paint-order:markers stroke fill"
+       id="rect1070"
+       width="1301.9127"
+       height="424.59106"
+       x="436.67343"
+       y="167.63626"
+       ry="2.2853127" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:21.3333px;line-height:1;font-family:'Iosevka Nerd Font Propo';-inkscape-font-specification:'Iosevka Nerd Font Propo, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;opacity:1;fill:#333333;stroke:none;stroke-width:3.5;stroke-linecap:square;stroke-linejoin:round;stroke-dasharray:none;stroke-dashoffset:64;paint-order:markers stroke fill"
+       x="567.98181"
+       y="451.14429"
+       id="text1244"><tspan
+         id="tspan1242"
+         x="567.98181"
+         y="451.14429"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:21.3333px;font-family:'Iosevka Nerd Font Propo';-inkscape-font-specification:'Iosevka Nerd Font Propo, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal">c</tspan></text>
+    <path
+       id="rect1676"
+       style="opacity:1;fill:none;stroke:#333333;stroke-width:4;stroke-linecap:square;stroke-linejoin:round;stroke-dashoffset:64;paint-order:markers stroke fill"
+       d="m 545.79121,403.89255 c -1.68037,0 -3.03321,1.35283 -3.03321,3.03321 v 77.34375 c 0,1.68037 1.35284,3.0332 3.03321,3.0332 h 54.91992 c 1.68038,0 3.0332,-1.35283 3.0332,-3.0332 v -69.2461 l -11.13086,-11.13086 z" />
+    <path
+       id="rect1892"
+       style="opacity:1;fill:none;stroke:#333333;stroke-width:4;stroke-linecap:square;stroke-linejoin:round;stroke-dasharray:none;stroke-dashoffset:64;paint-order:markers stroke fill"
+       d="m 591.4455,403.89255 v 10.25586 c 0,1.68038 1.35283,3.0332 3.03321,3.0332 h 6.23242 c 1.41261,0 2.59109,-0.9568 2.93164,-2.25976 l -11.0293,-11.0293 z" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:21.3333px;line-height:1;font-family:'Iosevka Nerd Font Propo';-inkscape-font-specification:'Iosevka Nerd Font Propo, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;opacity:1;fill:#333333;stroke:none;stroke-width:3.5;stroke-linecap:square;stroke-linejoin:round;stroke-dasharray:none;stroke-dashoffset:64;paint-order:markers stroke fill"
+       x="927.78436"
+       y="451.14429"
+       id="text1904"><tspan
+         id="tspan1902"
+         x="927.78436"
+         y="451.14429"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:21.3333px;font-family:'Iosevka Nerd Font Propo';-inkscape-font-specification:'Iosevka Nerd Font Propo, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal">asm</tspan></text>
+    <path
+       id="path1906"
+       style="opacity:1;fill:none;stroke:#333333;stroke-width:4;stroke-linecap:square;stroke-linejoin:round;stroke-dashoffset:64;paint-order:markers stroke fill"
+       d="m 916.34571,403.89254 c -1.68037,0 -3.03321,1.35283 -3.03321,3.03321 v 77.34375 c 0,1.68037 1.35284,3.0332 3.03321,3.0332 h 54.91992 c 1.68038,0 3.0332,-1.35283 3.0332,-3.0332 v -69.2461 l -11.13086,-11.13086 z" />
+    <path
+       id="path1908"
+       style="opacity:1;fill:none;stroke:#333333;stroke-width:4;stroke-linecap:square;stroke-linejoin:round;stroke-dasharray:none;stroke-dashoffset:64;paint-order:markers stroke fill"
+       d="m 962,403.89254 v 10.25586 c 0,1.68038 1.35283,3.0332 3.03321,3.0332 h 6.23242 c 1.41261,0 2.59109,-0.9568 2.93164,-2.25976 l -11.0293,-11.0293 z" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:21.3333px;line-height:1;font-family:'Iosevka Nerd Font Propo';-inkscape-font-specification:'Iosevka Nerd Font Propo, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;opacity:1;fill:#333333;stroke:none;stroke-width:3.5;stroke-linecap:square;stroke-linejoin:round;stroke-dasharray:none;stroke-dashoffset:64;paint-order:markers stroke fill"
+       x="567.98181"
+       y="293.35269"
+       id="text1912"><tspan
+         id="tspan1910"
+         x="567.98181"
+         y="293.35269"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:21.3333px;font-family:'Iosevka Nerd Font Propo';-inkscape-font-specification:'Iosevka Nerd Font Propo, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal">c</tspan></text>
+    <path
+       id="path1914"
+       style="opacity:1;fill:none;stroke:#333333;stroke-width:4;stroke-linecap:square;stroke-linejoin:round;stroke-dashoffset:64;paint-order:markers stroke fill"
+       d="m 545.79121,245.63157 c -1.68037,0 -3.03321,1.35283 -3.03321,3.03321 v 77.34375 c 0,1.68037 1.35284,3.0332 3.03321,3.0332 h 54.91992 c 1.68038,0 3.0332,-1.35283 3.0332,-3.0332 v -69.2461 l -11.13086,-11.13086 z" />
+    <path
+       id="path1916"
+       style="opacity:1;fill:none;stroke:#333333;stroke-width:4;stroke-linecap:square;stroke-linejoin:round;stroke-dasharray:none;stroke-dashoffset:64;paint-order:markers stroke fill"
+       d="m 591.4455,245.63157 v 10.25586 c 0,1.68038 1.35283,3.0332 3.03321,3.0332 h 6.23242 c 1.41261,0 2.59109,-0.9568 2.93164,-2.25976 l -11.0293,-11.0293 z" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:21.3333px;line-height:1;font-family:'Iosevka Nerd Font Propo';-inkscape-font-specification:'Iosevka Nerd Font Propo, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;opacity:1;fill:#333333;stroke:none;stroke-width:3.5;stroke-linecap:square;stroke-linejoin:round;stroke-dasharray:none;stroke-dashoffset:64;paint-order:markers stroke fill"
+       x="927.78436"
+       y="292.90469"
+       id="text1920"><tspan
+         id="tspan1918"
+         x="927.78436"
+         y="292.90469"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:21.3333px;font-family:'Iosevka Nerd Font Propo';-inkscape-font-specification:'Iosevka Nerd Font Propo, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal">asm</tspan></text>
+    <path
+       id="path1922"
+       style="opacity:1;fill:none;stroke:#333333;stroke-width:4;stroke-linecap:square;stroke-linejoin:round;stroke-dashoffset:64;paint-order:markers stroke fill"
+       d="m 916.34571,245.63158 c -1.68037,0 -3.03321,1.35283 -3.03321,3.03321 v 77.34375 c 0,1.68037 1.35284,3.0332 3.03321,3.0332 h 54.91992 c 1.68038,0 3.0332,-1.35283 3.0332,-3.0332 v -69.2461 l -11.13086,-11.13086 z" />
+    <path
+       id="path1924"
+       style="opacity:1;fill:none;stroke:#333333;stroke-width:4;stroke-linecap:square;stroke-linejoin:round;stroke-dasharray:none;stroke-dashoffset:64;paint-order:markers stroke fill"
+       d="m 962,245.63158 v 10.25586 c 0,1.68038 1.35283,3.0332 3.03321,3.0332 h 6.23242 c 1.41261,0 2.59109,-0.9568 2.93164,-2.25976 l -11.0293,-11.0293 z" />
+    <g
+       id="path1973">
+      <g
+         id="g1762">
+        <path
+           style="color:#000000;fill:#333333;stroke-linecap:round;-inkscape-stroke:none"
+           d="m 682.5,438.59766 a 1,1 0 0 0 -0.70703,0.29296 1,1 0 0 0 0,1.41407 l 5.29297,5.29297 -5.29297,5.29296 a 1,1 0 0 0 0,1.41407 1,1 0 0 0 1.41406,0 l 6.70703,-6.70703 -6.70703,-6.70704 A 1,1 0 0 0 682.5,438.59766 Z"
+           id="path1764" />
+      </g>
+      <path
+         style="color:#000000;fill:#333333;stroke-linecap:round;stroke-linejoin:round;stroke-dashoffset:64;-inkscape-stroke:none;paint-order:markers stroke fill"
+         d="m 637.34766,444.59766 a 1,1 0 0 0 -1,1 1,1 0 0 0 1,1 H 688 a 1,1 0 0 0 1,-1 1,1 0 0 0 -1,-1 z"
+         id="path1770" />
+    </g>
+    <g
+       id="path7268">
+      <g
+         id="g1750">
+        <path
+           style="color:#000000;fill:#333333;stroke-linecap:round;-inkscape-stroke:none"
+           d="m 682.5,281.61914 a 1,1 0 0 0 -0.70703,0.29297 1,1 0 0 0 0,1.41406 l 5.29297,5.29297 -5.29297,5.29297 a 1,1 0 0 0 0,1.41406 1,1 0 0 0 1.41406,0 l 6.70703,-6.70703 -6.70703,-6.70703 A 1,1 0 0 0 682.5,281.61914 Z"
+           id="path1752" />
+      </g>
+      <path
+         style="color:#000000;fill:#333333;stroke-linecap:round;stroke-linejoin:round;stroke-dashoffset:64;-inkscape-stroke:none;paint-order:markers stroke fill"
+         d="m 637.34766,287.61914 a 1,1 0 0 0 -1,1 1,1 0 0 0 1,1 H 688 a 1,1 0 0 0 1,-1 1,1 0 0 0 -1,-1 z"
+         id="path1758" />
+    </g>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:21.3333px;line-height:1;font-family:'Iosevka Nerd Font Propo';-inkscape-font-specification:'Iosevka Nerd Font Propo, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;opacity:1;fill:#1a1a1a;stroke:none;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-dashoffset:64;paint-order:markers stroke fill"
+       x="541.33655"
+       y="355.32394"
+       id="text7274"><tspan
+         id="tspan7272"
+         x="541.33655"
+         y="355.32394">main.c</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:21.3333px;line-height:1;font-family:'Iosevka Nerd Font Propo';-inkscape-font-specification:'Iosevka Nerd Font Propo, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;opacity:1;fill:#1a1a1a;stroke:none;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-dashoffset:64;paint-order:markers stroke fill"
+       x="530.56323"
+       y="515.8949"
+       id="text7278"><tspan
+         id="tspan7276"
+         x="530.56323"
+         y="515.8949">player.c</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:21.3333px;line-height:1;font-family:'Iosevka Nerd Font Propo';-inkscape-font-specification:'Iosevka Nerd Font Propo, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;opacity:1;fill:#1a1a1a;stroke:none;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-dashoffset:64;paint-order:markers stroke fill"
+       x="901.11774"
+       y="515.8949"
+       id="text7332"><tspan
+         id="tspan7330"
+         x="901.11774"
+         y="515.8949">player.S</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:21.3333px;line-height:1;font-family:'Iosevka Nerd Font Propo';-inkscape-font-specification:'Iosevka Nerd Font Propo, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;opacity:1;fill:#1a1a1a;stroke:none;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-dashoffset:64;paint-order:markers stroke fill"
+       x="911.89105"
+       y="355.32394"
+       id="text7336"><tspan
+         id="tspan7334"
+         x="911.89105"
+         y="355.32394">main.S</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:21.3333px;line-height:1;font-family:'Iosevka Nerd Font Propo';-inkscape-font-specification:'Iosevka Nerd Font Propo, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;opacity:1;fill:#333333;stroke:none;stroke-width:4;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-dashoffset:64;paint-order:markers stroke fill"
+       x="719.3811"
+       y="294.16553"
+       id="text7344"><tspan
+         id="tspan7342"
+         x="719.3811"
+         y="294.16553">compiler</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:21.3333px;line-height:1;font-family:'Iosevka Nerd Font Propo';-inkscape-font-specification:'Iosevka Nerd Font Propo, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;opacity:1;fill:#333333;stroke:none;stroke-width:4;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-dashoffset:64;paint-order:markers stroke fill"
+       x="719.3811"
+       y="451.14429"
+       id="text7452"><tspan
+         id="tspan7450"
+         x="719.3811"
+         y="451.14429">compiler</tspan></text>
+    <g
+       id="path7482">
+      <g
+         id="g1774">
+        <path
+           style="color:#000000;fill:#333333;stroke-linecap:round;-inkscape-stroke:none"
+           d="m 876.83789,438.59766 a 1,1 0 0 0 -0.70703,0.29296 1,1 0 0 0 0,1.41407 l 5.29297,5.29297 -5.29297,5.29296 a 1,1 0 0 0 0,1.41407 1,1 0 0 0 1.41406,0 l 6.70703,-6.70703 -6.70703,-6.70704 a 1,1 0 0 0 -0.70703,-0.29296 z"
+           id="path1776" />
+      </g>
+      <path
+         style="color:#000000;fill:#333333;stroke-linecap:round;stroke-linejoin:round;stroke-dashoffset:64;-inkscape-stroke:none;paint-order:markers stroke fill"
+         d="m 831.68555,444.59766 a 1,1 0 0 0 -1,1 1,1 0 0 0 1,1 h 50.65234 a 1,1 0 0 0 1,-1 1,1 0 0 0 -1,-1 z"
+         id="path1782" />
+    </g>
+    <g
+       id="path7484">
+      <g
+         id="g1786">
+        <path
+           style="color:#000000;fill:#333333;stroke-linecap:round;-inkscape-stroke:none"
+           d="m 876.83789,281.61914 a 1,1 0 0 0 -0.70703,0.29297 1,1 0 0 0 0,1.41406 l 5.29297,5.29297 -5.29297,5.29297 a 1,1 0 0 0 0,1.41406 1,1 0 0 0 1.41406,0 l 6.70703,-6.70703 -6.70703,-6.70703 a 1,1 0 0 0 -0.70703,-0.29297 z"
+           id="path1788" />
+      </g>
+      <path
+         style="color:#000000;fill:#333333;stroke-linecap:round;stroke-linejoin:round;stroke-dashoffset:64;-inkscape-stroke:none;paint-order:markers stroke fill"
+         d="m 831.68555,287.61914 a 1,1 0 0 0 -1,1 1,1 0 0 0 1,1 h 50.65234 a 1,1 0 0 0 1,-1 1,1 0 0 0 -1,-1 z"
+         id="path1794" />
+    </g>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:21.3333px;line-height:1;font-family:'Iosevka Nerd Font Propo';-inkscape-font-specification:'Iosevka Nerd Font Propo, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;opacity:1;fill:#333333;stroke:none;stroke-width:3.5;stroke-linecap:square;stroke-linejoin:round;stroke-dasharray:none;stroke-dashoffset:64;paint-order:markers stroke fill"
+       x="1295.745"
+       y="451.05896"
+       id="text7638"><tspan
+         id="tspan7636"
+         x="1295.745"
+         y="451.05896"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:21.3333px;font-family:'Iosevka Nerd Font Propo';-inkscape-font-specification:'Iosevka Nerd Font Propo, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal">obj</tspan><tspan
+         x="1295.745"
+         y="472.39227"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:21.3333px;font-family:'Iosevka Nerd Font Propo';-inkscape-font-specification:'Iosevka Nerd Font Propo, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal"
+         id="tspan1368" /></text>
+    <path
+       id="path7640"
+       style="opacity:1;fill:none;stroke:#333333;stroke-width:4;stroke-linecap:square;stroke-linejoin:round;stroke-dashoffset:64;paint-order:markers stroke fill"
+       d="m 1283.357,403.89254 c -1.6803,0 -3.0332,1.35283 -3.0332,3.03321 v 77.34375 c 0,1.68037 1.3529,3.0332 3.0332,3.0332 h 54.92 c 1.6803,0 3.0332,-1.35283 3.0332,-3.0332 v -69.2461 l -11.1309,-11.13086 z" />
+    <path
+       id="path7642"
+       style="opacity:1;fill:none;stroke:#333333;stroke-width:4;stroke-linecap:square;stroke-linejoin:round;stroke-dasharray:none;stroke-dashoffset:64;paint-order:markers stroke fill"
+       d="m 1329.0113,403.89254 v 10.25586 c 0,1.68038 1.3529,3.0332 3.0332,3.0332 h 6.2325 c 1.4126,0 2.591,-0.9568 2.9316,-2.25976 l -11.0293,-11.0293 z" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:21.3333px;line-height:1;font-family:'Iosevka Nerd Font Propo';-inkscape-font-specification:'Iosevka Nerd Font Propo, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;opacity:1;fill:#333333;stroke:none;stroke-width:3.5;stroke-linecap:square;stroke-linejoin:round;stroke-dasharray:none;stroke-dashoffset:64;paint-order:markers stroke fill"
+       x="1295.745"
+       y="292.79797"
+       id="text7646"><tspan
+         id="tspan7644"
+         x="1295.745"
+         y="292.79797"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:21.3333px;font-family:'Iosevka Nerd Font Propo';-inkscape-font-specification:'Iosevka Nerd Font Propo, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal">obj</tspan></text>
+    <path
+       id="path7648"
+       style="opacity:1;fill:none;stroke:#333333;stroke-width:4;stroke-linecap:square;stroke-linejoin:round;stroke-dashoffset:64;paint-order:markers stroke fill"
+       d="m 1283.357,245.63158 c -1.6803,0 -3.0332,1.35283 -3.0332,3.03321 v 77.34375 c 0,1.68037 1.3529,3.0332 3.0332,3.0332 h 54.92 c 1.6803,0 3.0332,-1.35283 3.0332,-3.0332 v -69.2461 l -11.1309,-11.13086 z" />
+    <path
+       id="path7650"
+       style="opacity:1;fill:none;stroke:#333333;stroke-width:4;stroke-linecap:square;stroke-linejoin:round;stroke-dasharray:none;stroke-dashoffset:64;paint-order:markers stroke fill"
+       d="m 1329.0113,245.63158 v 10.25586 c 0,1.68038 1.3529,3.0332 3.0332,3.0332 h 6.2325 c 1.4126,0 2.591,-0.9568 2.9316,-2.25976 l -11.0293,-11.0293 z" />
+    <g
+       id="path7652">
+      <g
+         id="g1810">
+        <path
+           style="color:#000000;fill:#333333;stroke-linecap:round;-inkscape-stroke:none"
+           d="m 1048.8027,438.89062 a 1,1 0 0 0 0,1.41407 l 5.293,5.29297 -5.293,5.29296 a 1,1 0 0 0 0,1.41407 1,1 0 0 0 1.4161,0 l 6.707,-6.70703 -6.707,-6.70704 a 1,1 0 0 0 -1.4161,0 z"
+           id="path1812" />
+      </g>
+      <path
+         style="color:#000000;fill:#333333;stroke-linecap:round;stroke-linejoin:round;stroke-dashoffset:64;-inkscape-stroke:none;paint-order:markers stroke fill"
+         d="m 1004.3594,444.59766 a 1,1 0 0 0 -1,1 1,1 0 0 0 1,1 h 50.6504 a 1,1 0 0 0 1,-1 1,1 0 0 0 -1,-1 z"
+         id="path1818" />
+    </g>
+    <g
+       id="path7654">
+      <g
+         id="g1798">
+        <path
+           style="color:#000000;fill:#333333;stroke-linecap:round;-inkscape-stroke:none"
+           d="m 1048.8027,281.91211 a 1,1 0 0 0 0,1.41406 l 5.293,5.29297 -5.293,5.29297 a 1,1 0 0 0 0,1.41406 1,1 0 0 0 1.4161,0 l 6.707,-6.70703 -6.707,-6.70703 a 1,1 0 0 0 -1.4161,0 z"
+           id="path1800" />
+      </g>
+      <path
+         style="color:#000000;fill:#333333;stroke-linecap:round;stroke-linejoin:round;stroke-dashoffset:64;-inkscape-stroke:none;paint-order:markers stroke fill"
+         d="m 1004.3594,287.61914 a 1,1 0 0 0 -1,1 1,1 0 0 0 1,1 h 50.6504 a 1,1 0 0 0 1,-1 1,1 0 0 0 -1,-1 z"
+         id="path1806" />
+    </g>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:21.3333px;line-height:1;font-family:'Iosevka Nerd Font Propo';-inkscape-font-specification:'Iosevka Nerd Font Propo, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;opacity:1;fill:#1a1a1a;stroke:none;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-dashoffset:64;paint-order:markers stroke fill"
+       x="1268.129"
+       y="515.8949"
+       id="text7658"><tspan
+         id="tspan7656"
+         x="1268.129"
+         y="515.8949">player.o</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:21.3333px;line-height:1;font-family:'Iosevka Nerd Font Propo';-inkscape-font-specification:'Iosevka Nerd Font Propo, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;opacity:1;fill:#1a1a1a;stroke:none;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-dashoffset:64;paint-order:markers stroke fill"
+       x="1278.9023"
+       y="355.32394"
+       id="text7662"><tspan
+         id="tspan7660"
+         x="1278.9023"
+         y="355.32394">main.o</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:21.3333px;line-height:1;font-family:'Iosevka Nerd Font Propo';-inkscape-font-specification:'Iosevka Nerd Font Propo, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;opacity:1;fill:#333333;stroke:none;stroke-width:4;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-dashoffset:64;paint-order:markers stroke fill"
+       x="1082.8918"
+       y="296.37354"
+       id="text7666"><tspan
+         id="tspan7664"
+         x="1082.8918"
+         y="296.37354">assembler</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:21.3333px;line-height:1;font-family:'Iosevka Nerd Font Propo';-inkscape-font-specification:'Iosevka Nerd Font Propo, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;opacity:1;fill:#333333;stroke:none;stroke-width:4;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-dashoffset:64;paint-order:markers stroke fill"
+       x="1082.8918"
+       y="453.35229"
+       id="text7670"><tspan
+         id="tspan7668"
+         x="1082.8918"
+         y="453.35229">assembler</tspan></text>
+    <g
+       id="path7672">
+      <g
+         id="g1834">
+        <path
+           style="color:#000000;fill:#333333;stroke-linecap:round;-inkscape-stroke:none"
+           d="m 1243.1426,438.89062 a 1,1 0 0 0 0,1.41407 l 5.2929,5.29297 -5.2929,5.29296 a 1,1 0 0 0 0,1.41407 1,1 0 0 0 1.414,0 l 6.7071,-6.70703 -6.7071,-6.70704 a 1,1 0 0 0 -1.414,0 z"
+           id="path1836" />
+      </g>
+      <path
+         style="color:#000000;fill:#333333;stroke-linecap:round;stroke-linejoin:round;stroke-dashoffset:64;-inkscape-stroke:none;paint-order:markers stroke fill"
+         d="m 1198.6973,444.59766 a 1,1 0 0 0 -1,1 1,1 0 0 0 1,1 h 50.6523 a 1,1 0 0 0 1,-1 1,1 0 0 0 -1,-1 z"
+         id="path1842" />
+    </g>
+    <g
+       id="path7674">
+      <g
+         id="g1822">
+        <path
+           style="color:#000000;fill:#333333;stroke-linecap:round;-inkscape-stroke:none"
+           d="m 1243.1426,281.91211 a 1,1 0 0 0 0,1.41406 l 5.2929,5.29297 -5.2929,5.29297 a 1,1 0 0 0 0,1.41406 1,1 0 0 0 1.414,0 l 6.7071,-6.70703 -6.7071,-6.70703 a 1,1 0 0 0 -1.414,0 z"
+           id="path1824" />
+      </g>
+      <path
+         style="color:#000000;fill:#333333;stroke-linecap:round;stroke-linejoin:round;stroke-dashoffset:64;-inkscape-stroke:none;paint-order:markers stroke fill"
+         d="m 1198.6973,287.61914 a 1,1 0 0 0 -1,1 1,1 0 0 0 1,1 h 50.6523 a 1,1 0 0 0 1,-1 1,1 0 0 0 -1,-1 z"
+         id="path1830" />
+    </g>
+    <g
+       id="path8614">
+      <g
+         id="g1738">
+        <path
+           style="color:#000000;fill:#333333;stroke-linecap:round;-inkscape-stroke:none"
+           d="m 1423.209,379.93164 -9.4219,1.10938 a 1,1 0 0 0 -0.875,1.10937 1,1 0 0 0 1.1094,0.87695 l 7.4336,-0.875 0.875,7.4336 a 1,1 0 0 0 1.1094,0.87695 1,1 0 0 0 0.8769,-1.11133 z"
+           id="path1740" />
+      </g>
+      <path
+         style="color:#000000;fill:#333333;stroke-linecap:round;stroke-linejoin:round;stroke-dashoffset:64;-inkscape-stroke:none;paint-order:markers stroke fill"
+         d="m 1422.6426,380.64844 a 1,1 0 0 0 -1.4063,0.16601 l -50.6504,64.16407 a 1,1 0 0 0 0.1641,1.40429 1,1 0 0 0 1.4043,-0.16601 l 50.6523,-64.16211 a 1,1 0 0 0 -0.164,-1.40625 z"
+         id="path1746" />
+    </g>
+    <g
+       id="path8658">
+      <g
+         id="g1846">
+        <path
+           style="color:#000000;fill:#333333;stroke-linecap:round;-inkscape-stroke:none"
+           d="m 1423.4395,343.47266 a 1,1 0 0 0 -1.1094,0.875 l -0.875,7.43359 -7.4336,-0.87305 a 1,1 0 0 0 -1.1094,0.875 1,1 0 0 0 0.875,1.11133 l 9.4219,1.10742 1.1074,-9.41992 a 1,1 0 0 0 -0.8769,-1.10937 z"
+           id="path1848" />
+      </g>
+      <path
+         style="color:#000000;fill:#333333;stroke-linecap:round;stroke-linejoin:round;stroke-dashoffset:64;-inkscape-stroke:none;paint-order:markers stroke fill"
+         d="m 1370.75,287.55078 a 1,1 0 0 0 -0.1641,1.40625 l 50.6504,64.16211 a 1,1 0 0 0 1.4063,0.16602 1,1 0 0 0 0.164,-1.4043 l -50.6523,-64.16406 a 1,1 0 0 0 -1.4043,-0.16602 z"
+         id="path1854" />
+    </g>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:21.3333px;line-height:1;font-family:'Iosevka Nerd Font Propo';-inkscape-font-specification:'Iosevka Nerd Font Propo, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;opacity:1;fill:#333333;stroke:none;stroke-width:4;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-dashoffset:64;paint-order:markers stroke fill"
+       x="1428.6016"
+       y="374.94437"
+       id="text8664"><tspan
+         id="tspan8662"
+         x="1428.6016"
+         y="374.94437">linker</tspan></text>
+    <g
+       id="path8668">
+      <g
+         id="g1858">
+        <path
+           style="color:#000000;fill:#333333;stroke-linecap:round;-inkscape-stroke:none"
+           d="m 1543.6367,361.4082 a 1,1 0 0 0 0,1.41407 l 5.293,5.29296 -5.293,5.29297 a 1,1 0 0 0 0,1.41407 1,1 0 0 0 1.4141,0 l 6.707,-6.70704 -6.707,-6.70703 a 1,1 0 0 0 -1.4141,0 z"
+           id="path1860" />
+      </g>
+      <path
+         style="color:#000000;fill:#333333;stroke-linecap:round;stroke-linejoin:round;stroke-dashoffset:64;-inkscape-stroke:none;paint-order:markers stroke fill"
+         d="m 1499.1914,367.11523 a 1,1 0 0 0 -1,1 1,1 0 0 0 1,1 h 50.6524 a 1,1 0 0 0 1,-1 1,1 0 0 0 -1,-1 z"
+         id="path1866" />
+    </g>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:21.3333px;line-height:1;font-family:'Iosevka Nerd Font Propo';-inkscape-font-specification:'Iosevka Nerd Font Propo, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;opacity:1;fill:#333333;stroke:none;stroke-width:3.5;stroke-linecap:square;stroke-linejoin:round;stroke-dasharray:none;stroke-dashoffset:64;paint-order:markers stroke fill"
+       x="1595.3578"
+       y="374.40186"
+       id="text8678"><tspan
+         id="tspan8676"
+         x="1595.3578"
+         y="374.40186"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:21.3333px;font-family:'Iosevka Nerd Font Propo';-inkscape-font-specification:'Iosevka Nerd Font Propo, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal">exe</tspan></text>
+    <path
+       id="path8680"
+       style="opacity:1;fill:none;stroke:#333333;stroke-width:4;stroke-linecap:square;stroke-linejoin:round;stroke-dashoffset:64;paint-order:markers stroke fill"
+       d="m 1582.9698,327.23546 c -1.6803,0 -3.0332,1.35283 -3.0332,3.03321 v 77.34375 c 0,1.68037 1.3529,3.0332 3.0332,3.0332 h 54.92 c 1.6803,0 3.0332,-1.35283 3.0332,-3.0332 v -69.2461 l -11.1309,-11.13086 z" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:21.3333px;line-height:1;font-family:'Iosevka Nerd Font Propo';-inkscape-font-specification:'Iosevka Nerd Font Propo, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;opacity:1;fill:#1a1a1a;stroke:none;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-dashoffset:64;paint-order:markers stroke fill"
+       x="1567.7632"
+       y="438.63232"
+       id="text8684"><tspan
+         id="tspan8682"
+         x="1567.7632"
+         y="438.63232">game.exe</tspan></text>
+  </g>
+</svg>
